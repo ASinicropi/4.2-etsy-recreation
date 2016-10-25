@@ -1,0 +1,227 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, minimal-ui">
+    <title>4 2 etsy recreation</title>
+    <link href="http://maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/app.css">
+  </head>
+
+  <body>
+    <header id="nav-header">
+      <div class="col-xs-12 ">
+        <div class="etsy-logo">
+          <img src="images/logo.png" class="logo-pic">
+        </div>
+        <div class="search-bar">
+          <form class="search-input">
+            <div class="input-group">
+              <input type="text" class="form-control" placeholder="Search for items or shops">
+              <span class="input-group-btn">
+                <button class="btn btn-default search-button" type="button">Search</button>
+              </span>
+          </form>
+        </div>
+        <div class="account-nav">
+          <ul id="nav-ul">
+            <li><a href="#">Sell on Etsy</a></li>
+            <li><a href="#">Register</a></li>
+            <li><a href="#"><button>Sign in</button></a></li>
+            <li id="cart"><a href="#">
+              <span class="fa fa-shopping-cart"></span>
+              <span id="cart-text">Cart</span>
+            </a></li>
+          </ul>
+        </div>
+      </div>
+    </header>
+
+    <div id="second-nav">
+      <nav class="nav-categories">
+        <ul id="nav-menu">
+          <li><a href="#">Clothing &amp; Accessories</a></li>
+          <li><a href="#">Jewlery</a></li>
+          <li><a href="#">Craft Supplies &amp; Tools</a></li>
+          <li><a href="#">Weddings</a></li>
+          <li><a href="#">Entertainment</a></li>
+          <li><a href="#">Home &amp; Living</a></li>
+          <li><a href="#">Kids &amp; Baby</a></li>
+          <li><a href="#">Vintage</a></li>
+        </ul>
+      </nav>
+    </div>
+
+    <div id="content-main">
+      <div class="content-main-inner">
+        <div class="col-group">
+          <div id="screen-size" class="col-md-6">
+            <h5 class="show-results">Show results for:</h5>
+              <div class="panel">
+                <div class="results-pannel">
+                  <div class="results-pannel-inner">
+                    <ul class="list-results">
+                      <li><a href="#">All categories</a></li>
+                      <li><a href="#">Art &amp; Collectibles</a></li>
+                      <li><a href="#">Collectibles</a></li>
+                      <li><a href="#">Mixed Media &amp; Collage</a></li>
+                      <li><a href="#">Sculpture</a></li>
+                      <li><a href="#">Dolls &amp; Miniatures</a></li>
+                      <li><a href="#">Painting</a></li>
+                      <li><a href="#">Fiber Arts</a></li>
+                      <li><a href="#">Drawing &amp; Illistrations</a></li>
+                      <li><a href="#">Prints</a></li>
+                      <li><a href="#">Clip Art</a></li>
+                      <li><a href="#">Fine Art Ceramics</a></li>
+                      <li><a href="#">Artist Trading Cards</a></li>
+                      <li></li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+            <h5 class="refine-search">Refine your search</h5>
+              <div class="panel">
+                <form>
+                  <div class="shop-location">
+                    <span class="location-title">Shop location</span>
+                    <div class="location-anywhere">
+                      <label><input type="radio" name="optionsRadios"
+                        id="anywhere" value="option1" checked>
+                        <span class="location-1">Anywhere</span></label>
+                      </div>
+                    <div class="location-US">
+                      <label>
+                        <input type="radio" name="optionsRadios"
+                          id="US" value="option2">
+                          <span class="location-2">United States</span>
+                      </label>
+                    </div>
+                    <span class="location-3"><a href="#">Choose a custom location</a></span>
+                  </div>
+                  <div class="item-type">
+                    <span class="item-title">Item type</span>
+                    <div class="items-all">
+                      <label><input type="radio" name="optionsRadios"
+                        id="all" value="option1" checked>
+                        <span class="item-1">All items</span></label>
+                    </div>
+                    <div class="item-handmade">
+                      <label><input type="radio" name="optionsRadios"
+                        id="handmade" value="option1" checked>
+                        <span class="item-2">Handmade</span></label>
+                    </div>
+                    <div class="item-vintage">
+                      <label><input type="radio" name="optionsRadios"
+                        id="vintage" value="option1" checked>
+                        <span class="item-3">Vintage</span></label>
+                    </div>
+                  </div>
+                  <div class="price">
+                    <span class="price-title">Price ($)</span>
+                      <div class="any-price">
+                        <label><input type="radio" name="optionsRadios"
+                          id="price-any" value="option1" checked>
+                          <span class="price-1">Any Price</span></label>
+                      </div>
+                      <div class="under-25">
+                        <label><input type="radio" name="optionsRadios"
+                          id="price-25" value="option1" checked>
+                          <span class="price-2">Under $25</span></label>
+                      </div>
+                      <div class="25-50">
+                        <label><input type="radio" name="optionsRadios"
+                          id="price-50" value="option1" checked>
+                          <span class="price-3">$25 to $50</span></label>
+                      </div>
+                      <div class="50-100">
+                        <label><input type="radio" name="optionsRadios"
+                          id="price-50" value="option1" checked>
+                          <span class="price-4">$50 to $100</span></label>
+                      </div>
+                      <div class="over-100">
+                        <label><input type="radio" name="optionsRadios"
+                          id="price-over" value="option1" checked>
+                          <span class="price-5">Over $100</span></label>
+                      </div>
+                      <div class="price-input col-xs-4">
+                        <div class="low-input">
+                        <div><input type="lowPrice"
+                          class="form-control" id="InputLowPrice"
+                          placeholder="Low"></div>
+                      </div>
+                        <div class="price-float">
+                        <span class="price-align">to</span>
+                      </div>
+                        <div class="high-input">
+                        <div><input type="highPrice"
+                          class="form-control" id="InputHighPrice"
+                          placeholder="High"></div>
+                      </div>
+                      </div>
+                  </div>
+                  <div class="filter-by-color">
+                    <span>Filter by color</span>
+                    <ul class="colors">
+                      <li class="red"><a href="#">
+                        <span class="red-inner"></span></a></li>
+                      <li class="orange"><a href="#">
+                        <span class="orange-inner"></span></a></li>
+                      <li class="yellow"><a href="#">
+                      <span class="yellow-inner"></span></a></li>
+                      <li class="green"><a href="#">
+                        <span class="green-inner"></span></a></li>
+                      <li class="blue"><a href="#">
+                        <span class="blue-inner"></span></a></li>
+                      <li class="purple"><a href="#">
+                        <span class="purple-inner"></span></a></li>
+                      <li class="black"><a href="#">
+                        <span class="black-inner"></span></a></li>
+                      <li class="white"><a href="#">
+                        <span class="white-inner"></span></a></li>
+                    </ul>
+                  </div>
+                  <div class="ordering-options">
+                    <span>Ordering options</span>
+                  </div>
+                  <div class="ship-to">
+                    <span>Ship to</span>
+                  </div>
+                </form>
+              </div>
+          </div>
+        </div>
+        <div class="col-group">
+          <div class="col-md-6">
+            <div id="third-nav">
+              <div class="categories">
+                <span></span>
+                <span></span>
+                <span></span>
+                <span></span>
+                <span></span>
+                <span></span>
+                <span></span>
+                <span></span>
+                <span></span>
+                <span></span>
+              </div>
+              <div id="sort-by">
+                <div class="dropdown"></div>
+              </div>
+            </div>
+            <div id="pic-row-one" class="row">
+              <div class="pic-one">
+                <a></a>
+              </div>
+            </div>
+
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+
+  <script src="js/bundle.js"></script>
+  </body>
+</html>
